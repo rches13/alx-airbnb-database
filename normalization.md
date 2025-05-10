@@ -1,6 +1,6 @@
 ## Normalization to 3NF
 
-Based on the Entity-Relationship Diagram (ERD) and the database specification, the database design is already well-structured and largely adheres to 3NF principles. However, let's review each entity and its attributes to explicitly confirm its compliance and address any potential areas for refinement.
+Based on the Entity-Relationship Diagram (ERD) and the database specification, the database design is already well-structured and largely adheres to 3NF principles.
 
 **1. Review of Current Schema and 3NF Principles**
 
@@ -60,7 +60,7 @@ Based on the Entity-Relationship Diagram (ERD) and the database specification, t
 
 **3. Conclusion**
 
-* The provided database schema, based on the ERD and specification, is already well-normalized and meets the requirements of 3NF.
+* The provided database schema is already well-normalized and meets the requirements of 3NF.
 * There are no transitive dependencies or partial dependencies identified. Each non-key attribute is directly dependent on the primary key of its respective table.
 * Therefore, no further structural changes are needed to achieve 3NF.
 
