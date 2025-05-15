@@ -8,7 +8,9 @@ INNER JOIN User AS u ON b.user_id = u.user_id;
 SELECT p.property_id, p.name, p.location, p.pricepernight, 
        r.review_id, r.rating, r.comment
 FROM Property AS p
-LEFT JOIN Review AS r ON p.property_id = r.property_id;
+LEFT JOIN Review AS r ON p.property_id = r.property_id
+ORDER BY p.property_id;
+
 
 -- Write a query using a FULL OUTER JOIN to retrieve all users and all bookings, even if the user has no booking or a booking is not linked to a user
 SELECT u.user_id, u.first_name, u.last_name, u.email, 
